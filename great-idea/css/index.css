@@ -64,14 +64,24 @@ h1, h2, h3, h4, h5 {
 /* Copy and paste your work from yesterday here and start to refactor into flexbox */
 
 .container {
-	width: 876px;
+	width: 880px;
 	margin: 0 auto;
+}
+
+/* .navigation {
+display: flex;
+justify-content: start;
+} */
+
+.logo {
+	margin-bottom: 20px;
 }
 
 header nav {
 	display: flex;
 	margin-top: 35px;
-	justify-content: space-around;
+	justify-content: space-between;
+	align-items: center;
 }
 
 header nav a {
@@ -201,3 +211,34 @@ button {
 	margin-left: 390px;
     margin-bottom: 50px;
   }
+
+  /* services styles */
+
+  .top-header {
+	margin: 40px 0;
+  }
+
+  .labels {
+	  font-size: 25px;
+  }
+.squares {
+	border: 1px solid red;
+	display: flex;
+}
+
+.info-card {
+	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
+}
+
+.squares .info-card {
+	border: 2px solid black;
+	background: lightgray;
+	justify-content: space-between;
+	width: 45%;
+	margin: 5px;
+	padding: 15px;
+	margin-top: 30px;
+	margin-bottom: 30px;
+}
