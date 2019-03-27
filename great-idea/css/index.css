@@ -68,13 +68,11 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-/* .navigation {
-display: flex;
-justify-content: start;
-} */
 
-.logo {
-	margin-bottom: 20px;
+header {
+display: flex;
+justify-content: space-between;
+margin-bottom : 20px;
 }
 
 header nav {
@@ -86,15 +84,12 @@ header nav {
 
 header nav a {
 	margin-right: 35px;
-    margin-left: 27px;
+    /* margin-left: 27px; */
 	font-size: 14px;
 	color: gray;
 	text-decoration: none;
 }
 
-img .logo {
-	margin-left: 110px;
-}
 
 .cover {
 	display: flex;
@@ -222,8 +217,9 @@ button {
 	  font-size: 25px;
   }
 .squares {
-	border: 1px solid red;
 	display: flex;
+	flex-wrap: wrap;
+	justify-content: space-between;
 }
 
 .info-card {
